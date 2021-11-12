@@ -1,4 +1,4 @@
-package br.com.caelum.agenda.dao.daotest;
+package br.com.agenda.dao.daotest;
 
 import java.util.List;
 
