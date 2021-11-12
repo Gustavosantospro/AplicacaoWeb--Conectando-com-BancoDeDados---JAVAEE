@@ -1,4 +1,4 @@
-package br.com.caelum.agenda.servlet;
+package br.com.agenda.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
