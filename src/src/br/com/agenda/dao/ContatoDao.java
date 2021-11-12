@@ -1,4 +1,4 @@
-package br.com.caelum.agenda.dao;
+package br.com.agenda.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -39,7 +39,7 @@ public class ContatoDao {
 	} 
 	}
 	
-	/** método para listar contatos*/
+	/** mÃ©todo para listar contatos*/
 	public List<Contato> getContatos() {
 		
 		String sql = "select * from contatos2";
@@ -70,7 +70,7 @@ public class ContatoDao {
 		return contatoList;
 	}
 	
-	/** método para atualizar contato*/
+	/** mÃ©todo para atualizar contato*/
 	public void updateContato(Contato contato) {
 		String update = "update contatos2 set " +
 					 	"nome= ?, email= ?, endereco= ?" +
