@@ -1,4 +1,4 @@
-package br.com.caelum.agenda.jdbc;
+package br.com.agenda.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
