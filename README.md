@@ -4,3 +4,9 @@ Compartilho com vocês minha primeira aplicação web utilizando os recursos do 
 Trata-se uma lista de contatos.
 Utilizei o Jdbc para persistência dos dados numa tabela do mysql e o servlet container Tomcat apache.
 
+Como executar a aplicação:
+1. crie um Dynamic Web project no Eclipse(irá criar uma o diretório WebContent: lá, você deverá por os arquivos contidos na pasta WebContent deste projeto. 
+2. faça o download das classes do src deste projeto e ponha no seu novo projeto criado.
+3. configure o tomcat apache no recurso de Server da JWTP.
+4. rode a aplicação.
+
