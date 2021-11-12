@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.sql.Date;
-import br.com.caelum.agenda.jdbc.ConnectionFactory;
-import br.com.caelum.agenda.modelo.Contato;
+import br.com.agenda.jdbc.ConnectionFactory;
+import br.com.agenda.modelo.Contato;
 
 public class ContatoDao {
 	
