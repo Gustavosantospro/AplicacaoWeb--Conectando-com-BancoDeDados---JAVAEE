@@ -1,4 +1,4 @@
-package br.com.caelum.agenda.servlet;
+package br.com.agenda.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -15,8 +15,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import br.com.caelum.agenda.dao.ContatoDao;
-import br.com.caelum.agenda.modelo.Contato;
+import br.com.agenda.dao.ContatoDao;
+import br.com.agenda.modelo.Contato;
 
 @WebServlet("/adicionaContato")
 
@@ -43,7 +43,7 @@ public class ContatoServlet extends HttpServlet {
 		try {
 			rd.forward(request, response);
 		} catch (ServletException e) {
-			System.out.println("erro no redirecionamento de requisição");
+			System.out.println("erro no redirecionamento de requisiÃ§Ã£o");
 			e.printStackTrace();
 		}
 	}
