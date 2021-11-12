@@ -2,8 +2,8 @@ package br.com.agenda.dao.daotest;
 
 import java.util.List;
 
-import br.com.caelum.agenda.dao.ContatoDao;
-import br.com.caelum.agenda.modelo.Contato;
+import br.com.agenda.dao.ContatoDao;
+import br.com.agenda.modelo.Contato;
 /**
  * @category classe feita para realizar teste do list.*/
 public class TestaGetList {
