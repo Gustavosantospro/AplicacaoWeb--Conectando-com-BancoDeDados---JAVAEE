@@ -8,5 +8,7 @@ Como executar a aplicação:
 1. crie um Dynamic Web project no Eclipse(irá criar uma o diretório WebContent: lá, você deverá por os arquivos contidos na pasta WebContent deste projeto. 
 2. faça o download das classes do src deste projeto e ponha no seu novo projeto criado.
 3. configure o tomcat apache no recurso de Server da JWTP.
-4. rode a aplicação.
+4. configure o connector/J do mysql à aplicação.
+5. crie a table que será usada para armazenar os contatos adicionados pela aplicação.
+6. rode a aplicação.
 
