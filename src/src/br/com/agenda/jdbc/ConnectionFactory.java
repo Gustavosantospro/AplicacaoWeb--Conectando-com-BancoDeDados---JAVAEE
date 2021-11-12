@@ -1,4 +1,4 @@
-package br.com.caelum.agenda.jdbc;
+package br.com.agenda.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,7 +12,7 @@ public class ConnectionFactory {
 		
 		try {
 				Class.forName("com.mysql.cj.jdbc.Driver");
-		return DriverManager.getConnection("jdbc:mysql://localhost:3307/fj21", "root", "gustavosantospro");
+		return DriverManager.getConnection("jdbc:mysql://localhost:3307/fj21", "root", "suaSenha");
 		} catch (SQLException | ClassNotFoundException e) {
 			throw new RuntimeException(e);
 		}
